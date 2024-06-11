@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #151715 ;
+    font-family: "press Start 2P";
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    background:linear-gradient(#36ba01,#009a22) ;
+}
+
+ul{
+    display: flex;
+    padding-right: 10px;
+    padding-top: 20px;
+    list-style: none;
+    margin-right: 16px;
+    padding-bottom: 10px;
+    gap: 23px;
+}
+
+li a{
+    color: #151715;
+}
+
+li a:hover{
+    cursor: pointer;
+    color: 	#00ff2b;
+}
+
+a{
+    text-decoration: none;
+}
+
+#welcome-section{
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;
+text-align: center;
+color: #36ba01;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100vh;
+justify-content: center;
+}
+
+#projects{
+    text-align: center;
+    border:2px solid #009a22;
+    background-color: #36ba01;
+    border-radius: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+img{
+    width: 250px;
+    height: 220px;
+    border: 3px solid #151715 ;
+    background-color: #151715;
+}
+
+.project-todo{
+    border-bottom:3px solid #151715;
+}
+
+#contact{
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #00ff2b;
+    gap: 23px;
+}
+i{
+    font-size: 25px;
+    color:#009a22
+}
+
+#contact a{
+    color: #5E355C;
+    cursor: pointer;
+}
+
+#contact a:hover{
+    color: #00ff2b;
+}
+
+
+
+
+    
+
+footer{
+    background:linear-gradient(#36ba01,#009a22) ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+
+
+.copyright{
+    font-size: 15px;
+    color: #5E355C;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: #866A85;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #BCAD8C;
+    }
+  }
